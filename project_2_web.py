@@ -2,8 +2,7 @@ import numpy as np
 import pandas as pd
 import joblib
 import streamlit as st
-model_dg=joblib.load('dg_model.pkl')
-scaler = joblib.load('scaler.pkl')
+
 # try:
 #     #model = joblib.load('diabetes_model.pkl')
 #     model = joblib.load('dg_model.pkl')
